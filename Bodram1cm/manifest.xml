@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Manifest xmlns="http://schemas.tizen.org/2012/12/manifest">
+    <Id>bNl4i7fkP1</Id>
+    <Version>2.0.0</Version>
+    <Type>C++App</Type>
+    <Requirements>
+        <Feature Name="http://tizen.org/feature/screen.size.normal">true</Feature>
+    </Requirements>
+    <Apps>
+        <ApiVersion>2.0</ApiVersion>
+        <Privileges>
+            <Privilege>http://tizen.org/privilege/nfc.tag</Privilege>
+            <Privilege>http://tizen.org/privilege/nfc.common</Privilege>
+            <Privilege>http://tizen.org/privilege/application.launch</Privilege>
+            <Privilege>http://tizen.org/privilege/nfc.p2p</Privilege>
+            <Privilege>http://tizen.org/privilege/nfc.admin</Privilege>
+        </Privileges>
+        <UiApp LaunchingHistoryVisible="True" Main="True" MenuIconVisible="True" Name="Bodram1cm">
+            <UiScalability BaseScreenSize="Normal" CoordinateSystem="Logical" LogicalCoordinate="480"/>
+            <UiTheme SystemTheme="White"/>
+            <DisplayNames>
+                <DisplayName Locale="eng-GB">Bodram1cm</DisplayName>
+            </DisplayNames>
+            <Icons>
+                <Icon Section="MainMenu" Type="Xhigh">mainmenu.png</Icon>
+            </Icons>
+            <LaunchConditions>
+                <Condition Name="NFC">tnf=mime&amp;type=application/vcard</Condition>
+            </LaunchConditions>
+        </UiApp>
+    </Apps>
+</Manifest>

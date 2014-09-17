@@ -1,0 +1,11 @@
+#delete
+#add
+author-signature.xml
+signature1.xml
+bin/Bodram1cmLauncher.exe
+info/manifest.xml
+res/screen-size-normal/
+res/screen-size-normal/IDL_FORM.xml
+shared/res/screen-density-xhigh/
+shared/res/screen-density-xhigh/mainmenu.png
+#modify

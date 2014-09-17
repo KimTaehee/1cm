@@ -1,4 +1,17 @@
-License
+================================================================
+README
+
+"1cm" is a Tizen Native based "Phone Stack" Application.
+NFC taged two phones will be locked and cannot act anything.
+Tested in Tizen 2.2.
+================================================================
+STRUCTURE
+
+1. Bodram1cm: Phone Stack Application.
+2. Bodram1cmLauncher: It blocks even Home Button.
+
+================================================================
+LICENSE
 
 Copyright 2014 Team Bodram
 

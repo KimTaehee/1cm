@@ -1,7 +1,7 @@
 ================================================================
 README
 
-"1cm" is a Tizen Native based "Phone Stack" Application. NFC taged two phones will be locked and cannot act anything. Tested in Tizen 2.2.
+"1cm" is a Tizen Native based "Phone Stack" Application. NFC tagged two phones will be locked and cannot act anything. Tested in Tizen 2.2.
 
 ================================================================
 STRUCTURE
